@@ -1,7 +1,8 @@
 " add for pathogen
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#infect()
-Helptags
+"runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
 
 " 行号
 set number
