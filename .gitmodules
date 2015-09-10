@@ -52,3 +52,6 @@
 [submodule "bundle/makegree"]
 	path = bundle/makegree
 	url = https://github.com/reinh/vim-makegreen.git
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
