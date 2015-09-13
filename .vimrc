@@ -1,6 +1,7 @@
 " add for pathogen
 "runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
+Helptags
 syntax on
 filetype plugin indent on
 
