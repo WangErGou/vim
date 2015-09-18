@@ -5,14 +5,14 @@ Helptags
 syntax on
 filetype plugin indent on
 
+set autoindent
 " 行号
 set number
 " 缩进
 set tabstop=4
 set shiftwidth=4
 " 折叠
-set foldmethod=indent
-set foldlevel=99
+set foldmethod=marker
 " 忽略大小写，高亮搜索，增量搜索
 set ic hls is
 " 文件检测
@@ -21,7 +21,9 @@ set ic hls is
 :filetype indent on
 " Python 文件专享
 :autocmd FileType python :set expandtab
+:autocmd FileType python :set foldmethod=indent
 :autocmd FileType python :set softtabstop=4
+:autocmd FileType python :set textwidth=79
 " 分屏快捷键映射
 map <c-h> <c-w>h
 map <c-j> <c-w>j
@@ -36,4 +38,3 @@ set background=dark
 colorscheme solarized
 " MakeGree
 map <leader>dt :set makeprg=python\ manage.py\ test\|:call MakeGreen()<CR>
-
