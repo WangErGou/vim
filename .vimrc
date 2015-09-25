@@ -38,3 +38,6 @@ set background=dark
 colorscheme solarized
 " MakeGree
 map <leader>dt :set makeprg=python\ manage.py\ test\|:call MakeGreen()<CR>
+" try with riv.vim
+let proj1 = {'path': '~/rst',}
+let g:riv_projects = [proj1]
