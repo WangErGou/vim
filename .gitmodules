@@ -1,69 +1,27 @@
-[submodule "bundle/vim-pathogen"]
-	path = bundle/vim-pathogen
-	url = git://github.com/tpope/vim-pathogen.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
-[submodule "bundel/nerdtree"]
-	path = bundel/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/jedi"]
 	path = bundle/jedi
 	url = https://github.com/davidhalter/jedi-vim.git
-[submodule "colors"]
-	path = colors
-	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = https://github.com/garbas/vim-snipmate.git
-[submodule "bundle/Conque-Shell"]
-	path = bundle/Conque-Shell
-	url = https://github.com/vim-scripts/Conque-Shell.git
-[submodule "bundle/tlib"]
-	path = bundle/tlib
-	url = https://github.com/tomtom/tlib_vim.git
-[submodule "addon-mv-utils"]
-	path = addon-mv-utils
-	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
 [submodule "bundle/snippets"]
 	path = bundle/snippets
 	url = https://github.com/honza/vim-snippets.git
 [submodule "bundle/addon-mv-utils"]
 	path = bundle/addon-mv-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule "bundle/tasklist"]
-	path = bundle/tasklist
-	url = https://github.com/vim-scripts/TaskList.vim.git
-[submodule "bundle/gundo"]
-	path = bundle/gundo
-	url = https://github.com/sjl/gundo.vim.git
 [submodule "bundle/flake8"]
 	path = bundle/flake8
 	url = https://github.com/nvie/vim-flake8.git
-[submodule "bundle/minibufexpl"]
-	path = bundle/minibufexpl
-	url = https://github.com/fholgado/minibufexpl.vim.git
-[submodule "bundle/repovim"]
-	path = bundle/repovim
-	url = https://github.com/python-rope/ropevim.git
-[submodule "bundle/ack"]
-	path = bundle/ack
-	url = https://github.com/mileszs/ack.vim.git
-[submodule "bundle/makegree"]
-	path = bundle/makegree
-	url = https://github.com/reinh/vim-makegreen.git
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/pathogen"]
-	path = bundle/pathogen
-	url = https://github.com/tpope/vim-pathogen.git
-[submodule "bundle/ctrlp"]
-	path = bundle/ctrlp
-	url = https://github.com/kien/ctrlp.vim.git
-[submodule "bundle/vimwiki"]
-	path = bundle/vimwiki
-	url = https://github.com/vimwiki/vimwiki.git
 [submodule "bundle/riv.vim"]
 	path = bundle/riv.vim
 	url = https://github.com/Rykka/riv.vim.git
+[submodule "bundle/tlib"]
+	path = bundle/tlib
+	url = https://github.com/tomtom/tlib_vim.git
