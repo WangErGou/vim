@@ -1,7 +1,6 @@
 " add for pathogen
-"runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
-Helptags
+" execute pathogen#infect()
+" Helptags
 syntax on
 filetype plugin indent on
 
@@ -35,9 +34,9 @@ set listchars=tab:▸\ ,eol:¬
 " 修改配色
 syntax on
 set background=dark
-colorscheme solarized
+" colorscheme solarized
 " MakeGree
-map <leader>dt :set makeprg=python\ manage.py\ test\|:call MakeGreen()<CR>
+" map <leader>dt :set makeprg=python\ manage.py\ test\|:call MakeGreen()<CR>
 " try with riv.vim
 let proj1 = {'path': '~/rst',}
 let g:riv_projects = [proj1]
