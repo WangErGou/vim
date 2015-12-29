@@ -23,6 +23,7 @@ set ic hls is
 " Python 文件专享
 :autocmd FileType python :set expandtab
 :autocmd FileType python :set foldmethod=indent
+:autocmd FileType python :set foldlevel=99
 :autocmd FileType python :set softtabstop=4
 :autocmd FileType python :set textwidth=79
 " rst 文件
@@ -49,3 +50,6 @@ map <leader>dt :set makeprg=python\ manage.py\ test\|:call MakeGreen()<CR>
 " let g:riv_ignored_imaps = "<BS>"
 " 关闭讨厌的提示音
 set vb t_vb=
+" set for gundo
+nnoremap <F5> :GundoToggle<CR>
+" just add smt to test gundo
