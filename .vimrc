@@ -12,8 +12,9 @@ set number
 " 缩进
 set tabstop=4
 set shiftwidth=4
+set expandtab
 " 折叠
-set foldmethod=marker
+set foldmethod=indent
 " 忽略大小写，高亮搜索，增量搜索
 set ic hls is
 " 文件检测
@@ -21,11 +22,9 @@ set ic hls is
 :filetype plugin on
 :filetype indent on
 " Python 文件专享
-:autocmd FileType python :set expandtab
-:autocmd FileType python :set foldmethod=indent
-:autocmd FileType python :set foldlevel=99
+:autocmd FileType python :set foldlevel=0
 :autocmd FileType python :set softtabstop=4
-:autocmd FileType python :set textwidth=79
+:autocmd FileType python :set textwidth=90
 " rst 文件
 :autocmd FileType rst :set expandtab
 :autocmd FileType rst :set foldmethod=indent
