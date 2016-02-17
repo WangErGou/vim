@@ -24,7 +24,6 @@ set ic hls is
 " Python 文件专享
 :autocmd FileType python :set foldlevel=0
 :autocmd FileType python :set softtabstop=4
-:autocmd FileType python :set textwidth=90
 " rst 文件
 :autocmd FileType rst :set expandtab
 :autocmd FileType rst :set foldmethod=indent
